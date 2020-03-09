@@ -1,0 +1,73 @@
+body {
+    background: #333;
+    color: #fff;
+}
+// navbar
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    opacity: .8;
+    transition: .3s;
+    &:hover {
+        opacity: 1;
+    }
+    .fas {
+        padding-right: 10px;;
+        color: #527318;
+    }
+}
+// header
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+
+    .dark-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+        background: rgba(0,0,0,0.7);
+    }
+
+    .home-inner {
+        padding-top: 150px;
+    }
+
+    .card-form {
+        opacity: .8;
+    }
+    .fas {  //ikona
+        color: #008ed6;
+        background: #fff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+//Explore section
+#explore-section {
+    .fas {
+        background: #333;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+#create-section {
+    .fas {
+        background: #fff;
+        color: #008ed6;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+#share-section {
+    .fas {
+        background: #333;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
